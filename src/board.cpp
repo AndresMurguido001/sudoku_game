@@ -1,28 +1,27 @@
-
 #include "board.h"
+#include "ftxui/component/component.hpp"
+#include "ftxui/component/screen_interactive.hpp"
+#include "ftxui/dom/node.hpp"
 #include <algorithm>
+#include <ftxui/component/component_base.hpp>
+#include <ftxui/component/event.hpp>
+#include <ftxui/dom/canvas.hpp>
+#include <iostream>
+#include <string>
+#include <vector>
+#include "ftxui/dom/elements.hpp"
 
-Board::Board(): board(BOARD_SIZE, std::vector<int>(BOARD_SIZE, 0)){
+using namespace ftxui;
 
+// Try making a grid of buttons for the sudoku board
+
+void Board::set(int i, int j, int val) {
+    board[i][j] = val;
 }
 
-const int Board::get(int i, int j) const {
-    return board[i][j];
-}
 
-Board::~Board() {
-}
+// Use canvas. Move rendering logic to main()
+Board::Board():
+    board(std::array<std::array<int, BOARD_SIZE>, BOARD_SIZE>{0}){};
 
-std::ostream& operator<<(std::ostream& os, const Board& game_board) {
-
-    for (int i  = 0; i < BOARD_SIZE; i++) {
-
-        for (int j = 0; j < BOARD_SIZE; j++) {
-            os << game_board.get(i, j);
-        }
-
-        os << std::endl;
-    }
-    return os;
-}
-
+Board::~Board(){}

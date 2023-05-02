@@ -1,10 +1,14 @@
 [
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -12,6 +16,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o",
@@ -20,16 +25,20 @@
    "-o",
    "CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/box.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/box.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/box.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/box.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -37,6 +46,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o",
@@ -45,16 +55,20 @@
    "-o",
    "CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -62,6 +76,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o",
@@ -70,16 +85,20 @@
    "-o",
    "CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color_info.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color_info.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color_info.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/color_info.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -87,6 +106,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o",
@@ -95,16 +115,20 @@
    "-o",
    "CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/screen.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/screen.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/screen.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/screen.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -112,6 +136,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o",
@@ -120,16 +145,20 @@
    "-o",
    "CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/string.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/string.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/string.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/string.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -137,6 +166,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o",
@@ -145,16 +175,21 @@
    "-o",
    "CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/terminal.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/terminal.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/terminal.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/screen/terminal.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -162,6 +197,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o",
@@ -170,16 +206,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/automerge.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/automerge.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/automerge.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/automerge.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -187,6 +228,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o",
@@ -195,16 +237,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/blink.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/blink.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/blink.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/blink.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -212,6 +259,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o",
@@ -220,16 +268,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/bold.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/bold.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/bold.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/bold.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -237,6 +290,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o",
@@ -245,16 +299,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/border.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/border.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/border.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/border.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -262,6 +321,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o",
@@ -270,16 +330,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/box_helper.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/box_helper.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/box_helper.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/box_helper.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -287,6 +352,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o",
@@ -295,16 +361,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/canvas.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/canvas.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/canvas.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/canvas.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -312,6 +383,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o",
@@ -320,16 +392,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/clear_under.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/clear_under.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/clear_under.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/clear_under.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -337,6 +414,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o",
@@ -345,16 +423,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/color.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/color.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/color.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/color.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -362,6 +445,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o",
@@ -370,16 +454,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/composite_decorator.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/composite_decorator.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/composite_decorator.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/composite_decorator.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -387,6 +476,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o",
@@ -395,16 +485,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dbox.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dbox.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dbox.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dbox.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -412,6 +507,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o",
@@ -420,16 +516,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dim.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dim.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dim.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/dim.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -437,6 +538,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o",
@@ -445,16 +547,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flex.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flex.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flex.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flex.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -462,6 +569,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o",
@@ -470,16 +578,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -487,6 +600,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o",
@@ -495,16 +609,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_config.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_config.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_config.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_config.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -512,6 +631,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o",
@@ -520,16 +640,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_helper.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_helper.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_helper.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/flexbox_helper.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -537,6 +662,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o",
@@ -545,16 +671,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/focus.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/focus.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/focus.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/focus.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -562,6 +693,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o",
@@ -570,16 +702,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/frame.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/frame.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/frame.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/frame.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -587,6 +724,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o",
@@ -595,16 +733,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gauge.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gauge.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gauge.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gauge.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -612,6 +755,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o",
@@ -620,16 +764,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/graph.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/graph.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/graph.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/graph.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -637,6 +786,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o",
@@ -645,16 +795,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gridbox.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gridbox.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gridbox.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/gridbox.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -662,6 +817,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o",
@@ -670,16 +826,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/hbox.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/hbox.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/hbox.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/hbox.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -687,6 +848,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o",
@@ -695,16 +857,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/inverted.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/inverted.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/inverted.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/inverted.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -712,6 +879,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o",
@@ -720,16 +888,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -737,6 +910,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o",
@@ -745,16 +919,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node_decorator.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node_decorator.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node_decorator.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/node_decorator.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -762,6 +941,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o",
@@ -770,16 +950,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/paragraph.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/paragraph.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/paragraph.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/paragraph.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -787,6 +972,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o",
@@ -795,16 +981,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/reflect.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/reflect.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/reflect.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/reflect.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -812,6 +1003,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o",
@@ -820,16 +1012,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/scroll_indicator.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/scroll_indicator.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/scroll_indicator.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/scroll_indicator.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -837,6 +1034,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o",
@@ -845,16 +1043,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/separator.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/separator.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/separator.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/separator.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -862,6 +1065,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o",
@@ -870,16 +1074,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/size.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/size.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/size.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/size.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -887,6 +1096,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o",
@@ -895,16 +1105,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/spinner.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/spinner.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/spinner.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/spinner.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -912,6 +1127,38 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
+   "-MD",
+   "-MT",
+   "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o",
+   "-MF",
+   "CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o.d",
+   "-o",
+   "CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.o",
+   "-c",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/strikethrough.cpp"
+  ],
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/strikethrough.cpp"
+ },
+ {
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
+  "arguments": [
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-Werror",
+   "-Wmissing-declarations",
+   "-Wdeprecated",
+   "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o",
@@ -920,16 +1167,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/table.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/table.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/table.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/table.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -937,6 +1189,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o",
@@ -945,16 +1198,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/text.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/text.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/text.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/text.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -962,6 +1220,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o",
@@ -970,16 +1229,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/underlined.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/underlined.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/underlined.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/underlined.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -987,6 +1251,38 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
+   "-MD",
+   "-MT",
+   "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o",
+   "-MF",
+   "CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o.d",
+   "-o",
+   "CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.o",
+   "-c",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/underlined_double.cpp"
+  ],
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/underlined_double.cpp"
+ },
+ {
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
+  "arguments": [
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-Werror",
+   "-Wmissing-declarations",
+   "-Wdeprecated",
+   "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o",
@@ -995,16 +1291,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/util.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/util.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/util.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/util.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1012,6 +1313,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o",
@@ -1020,16 +1322,21 @@
    "-o",
    "CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/vbox.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/vbox.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/vbox.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/dom/vbox.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1037,6 +1344,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o",
@@ -1045,16 +1353,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/animation.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/animation.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/animation.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/animation.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/animation.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1062,6 +1375,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/button.cpp.o",
@@ -1070,16 +1384,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/button.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/button.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/button.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/button.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/button.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1087,6 +1406,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o",
@@ -1095,16 +1415,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/catch_event.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1112,6 +1437,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o",
@@ -1120,16 +1446,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/checkbox.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1137,6 +1468,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o",
@@ -1145,16 +1477,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/collapsible.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1162,6 +1499,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component.cpp.o",
@@ -1170,16 +1508,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/component.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1187,6 +1530,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o",
@@ -1195,16 +1539,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/component_options.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1212,6 +1561,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/container.cpp.o",
@@ -1220,16 +1570,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/container.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/container.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/container.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/container.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/container.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1237,6 +1592,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o",
@@ -1245,16 +1601,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/dropdown.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1262,6 +1623,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/event.cpp.o",
@@ -1270,16 +1632,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/event.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/event.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/event.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/event.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/event.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1287,6 +1654,38 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
+   "-MD",
+   "-MT",
+   "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o",
+   "-MF",
+   "CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o.d",
+   "-o",
+   "CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.o",
+   "-c",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp"
+  ],
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/hoverable.cpp"
+ },
+ {
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
+  "arguments": [
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-Werror",
+   "-Wmissing-declarations",
+   "-Wdeprecated",
+   "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/input.cpp.o",
@@ -1295,16 +1694,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/input.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/input.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/input.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/input.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/input.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1312,6 +1716,38 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
+   "-MD",
+   "-MT",
+   "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o",
+   "-MF",
+   "CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o.d",
+   "-o",
+   "CMakeFiles/component.dir/src/ftxui/component/loop.cpp.o",
+   "-c",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/loop.cpp"
+  ],
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/loop.cpp"
+ },
+ {
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
+  "arguments": [
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-Werror",
+   "-Wmissing-declarations",
+   "-Wdeprecated",
+   "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o",
@@ -1320,16 +1756,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/maybe.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1337,6 +1778,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o",
@@ -1345,16 +1787,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/menu.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/menu.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/menu.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/menu.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/menu.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1362,6 +1809,38 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
+   "-MD",
+   "-MT",
+   "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o",
+   "-MF",
+   "CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o.d",
+   "-o",
+   "CMakeFiles/component.dir/src/ftxui/component/modal.cpp.o",
+   "-c",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/modal.cpp"
+  ],
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/modal.cpp"
+ },
+ {
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
+  "arguments": [
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+   "-Wall",
+   "-Wextra",
+   "-pedantic",
+   "-Werror",
+   "-Wmissing-declarations",
+   "-Wdeprecated",
+   "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o",
@@ -1370,16 +1849,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/radiobox.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1387,6 +1871,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o",
@@ -1395,16 +1880,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/renderer.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1412,6 +1902,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o",
@@ -1420,16 +1911,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/resizable_split.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1437,6 +1933,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o",
@@ -1445,16 +1942,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/screen_interactive.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1462,6 +1964,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o",
@@ -1470,16 +1973,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/slider.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/slider.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/slider.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/slider.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/slider.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1487,6 +1995,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o",
@@ -1495,16 +2004,21 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/terminal_input_parser.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
    "-Wall",
    "-Wextra",
    "-pedantic",
@@ -1512,6 +2026,7 @@
    "-Wmissing-declarations",
    "-Wdeprecated",
    "-Wshadow",
+   "-std=c++17",
    "-MD",
    "-MT",
    "_deps/ftxui-build/CMakeFiles/component.dir/src/ftxui/component/util.cpp.o",
@@ -1520,17 +2035,23 @@
    "-o",
    "CMakeFiles/component.dir/src/ftxui/component/util.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/util.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/util.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/util.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/src/ftxui/component/util.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/src",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/./include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/./include",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+   "-std=gnu++17",
    "-MD",
    "-MT",
    "CMakeFiles/sudoku_game.dir/src/main.cpp.o",
@@ -1539,17 +2060,23 @@
    "-o",
    "CMakeFiles/sudoku_game.dir/src/main.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/src/main.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/src/main.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/src/main.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/src/main.cpp"
  },
  {
-  "directory": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/build",
+  "directory": "/Users/andresmurguido/Projects/sudoku_game/build",
   "arguments": [
-   "/usr/bin/c++",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/src",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/./include",
-   "-I/home/andresmurguido/Projects/cpp_projects/sudoku_game/build/_deps/ftxui-src/include",
+   "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+   "-I/Users/andresmurguido/Projects/sudoku_game/src",
+   "-I/Users/andresmurguido/Projects/sudoku_game/./include",
+   "-isystem",
+   "/Users/andresmurguido/Projects/sudoku_game/build/_deps/ftxui-src/include",
+   "-arch",
+   "arm64",
+   "-isysroot",
+   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk",
+   "-std=gnu++17",
    "-MD",
    "-MT",
    "CMakeFiles/sudoku_game.dir/src/board.cpp.o",
@@ -1558,8 +2085,8 @@
    "-o",
    "CMakeFiles/sudoku_game.dir/src/board.cpp.o",
    "-c",
-   "/home/andresmurguido/Projects/cpp_projects/sudoku_game/src/board.cpp"
+   "/Users/andresmurguido/Projects/sudoku_game/src/board.cpp"
   ],
-  "file": "/home/andresmurguido/Projects/cpp_projects/sudoku_game/src/board.cpp"
+  "file": "/Users/andresmurguido/Projects/sudoku_game/src/board.cpp"
  }
 ]

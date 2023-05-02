@@ -6,7 +6,7 @@ include(FetchContent)
 set(FETCHCONTENT_UPDATES_DISCONNECTED TRUE)
 FetchContent_Declare(ftxui
   GIT_REPOSITORY https://github.com/ArthurSonzogni/ftxui
-  GIT_TAG v3.0.0
+  GIT_TAG v4.0.0
 )
  
 FetchContent_GetProperties(ftxui)
@@ -21,7 +21,7 @@ project(sudoku_game
   LANGUAGES CXX
   VERSION 1.0.0
 )
-
+set(CMAKE_CXX_STANDARD 17)
  
 add_executable(sudoku_game src/main.cpp src/board.cpp)
 target_include_directories(sudoku_game PRIVATE src/)
