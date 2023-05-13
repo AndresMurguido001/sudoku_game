@@ -1,21 +1,23 @@
 #include "board.h"
-#include "ftxui/component/component.hpp"
-#include "ftxui/dom/elements.hpp"
-#include "ftxui/dom/node.hpp"
-#include <algorithm>
-#include <ftxui/component/component_base.hpp>
-#include <ftxui/component/event.hpp>
-#include <ftxui/dom/canvas.hpp>
 #include <iostream>
 #include <string>
 #include <vector>
 
 using namespace ftxui;
 
-void Board::set(int i, int j, int val) { this->board[i][j] = val; }
+void Board::set(int i, int j, int val) { board[i][j] = val; }
 
-int Board::get(int i, int j) { return this->board[i][j]; }
-Board::Board()
-    : board(std::array<std::array<int, BOARD_SIZE>, BOARD_SIZE>{0}){};
+int Board::get(int i, int j) { return board[i][j]; }
+Board::Board(std::vector<std::vector<int>> vals)
+    : board(vals){};
+
+void Board::print() {
+  for (int i = 0; i < BOARD_SIZE; i++) {
+    for (int j = 0; j < BOARD_SIZE; j++) {
+      std::cout << board[i][j];
+    }
+    std::cout << "\n";
+  }
+}
 
 Board::~Board() {}

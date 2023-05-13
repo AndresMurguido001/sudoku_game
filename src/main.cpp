@@ -10,67 +10,68 @@
 #include <ftxui/dom/node.hpp>
 #include <ftxui/screen/screen.hpp>
 #include <iostream>
+#include <memory>
+#include <pthread.h>
 #include <string>
+#include <utility>
 #include <vector>
 using namespace ftxui;
 
 int main(int argc, char *argv[]) {
   // Render board
-  Board game_board;
-  auto screen = ScreenInteractive::FitComponent();
   int mouse_x = 0, mouse_y = 0;
+  int col_sync = 0;
+  Component board_component;
 
-  int block_size = std::floor(100 / BOARD_SIZE);
+  // Trying new board design;
+  Components inner_board;
+  std::vector<std::vector<int>> test_board(BOARD_SIZE,
+                                           std::vector<int>(BOARD_SIZE, 0));
 
+  Board game_board(std::move(test_board));
 
+  for (int i = 0; i < BOARD_SIZE; i++) {
 
-  auto game = Renderer([&]() {
-    auto c = Canvas(100, 100);
+    Components rows = {};
 
-    for (int i = 0; i < BOARD_SIZE; i++) {
+    for (int j = 0; j < BOARD_SIZE; j++) {
 
-      for (int j = 0; j < BOARD_SIZE; j++) {
+      int *cell_val = &game_board.board[i].at(j);
+      rows.push_back(
+          Renderer([&, cell_val](bool focus) {
+            auto text = ftxui::text(std::to_string(*cell_val));
+            if (focus)
+              text |= bgcolor(Color::DarkMagenta);
+            return text;
+          }) |
+          CatchEvent([&, i, j](Event e) {
+            if (!(e.character().at(0) <= '9' && e.character().at(0) > '0'))
+              return false;
 
-      int cell_x = i * block_size + (block_size / 2);
-      int cell_y = j * block_size + (block_size / 2);
+            int n = std::stoi(e.character());
+            game_board.set(i, j, n);
 
-        c.DrawText(cell_x, cell_y, std::to_string(game_board.get(i, j)), [=](Pixel &p) {
-          if (mouse_x == i && mouse_y == j) {
-            p.foreground_color = Color::Red;
-          } else {
-            p.foreground_color = Color::White;
-          }
-        });
+            return true;
+          }));
+
+      if ((j + 1) % 3 == 0 and j < 8) {
+        rows.push_back(Renderer([&] { return separator(); }));
       }
     }
 
-    return canvas(std::move(c));
-  });
+    inner_board.push_back(Container::Horizontal(rows, &col_sync));
 
-  auto container = Container::Vertical({game});
-
-  auto container_w_mouse = CatchEvent(container, [&](Event e) {
-    if (e.is_mouse()) {
-      mouse_x = e.mouse().x - 1;
-      mouse_y = e.mouse().y - 1;
+    if ((i + 1) % 3 == 0 and i < 8) {
+      inner_board.push_back(Renderer([&] { return separator(); }));
     }
-    if (e.mouse().button == Mouse::Left &&
-        e.mouse().motion == Mouse::Released) {
-      game_board.set(mouse_x, mouse_y, 1);
-    }
-    return false;
-  });
+  }
 
-  auto c = Container::Vertical({container_w_mouse});
+  board_component =
+      Container::Horizontal({Container::Vertical(std::move(inner_board))});
 
-  auto component_renderer = Renderer(c, [&] {
-    return vbox({
-               container_w_mouse->Render(),
-           }) |
-           border;
-  });
-
-  screen.Loop(component_renderer);
+  auto screen = ScreenInteractive::FitComponent();
+  screen.Loop(board_component | border);
+  //  game_board.print();
 
   return 0;
 }
