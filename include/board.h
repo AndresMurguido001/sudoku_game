@@ -20,7 +20,6 @@ public:
   int get(int, int);
   void set(int, int, int);
   void print();
-  void update_color(int, int);
 
 private:
   void make_grid(int, int);

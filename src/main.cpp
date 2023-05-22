@@ -1,8 +1,11 @@
+#include "./generator.cpp"
 #include "board.h"
 #include "ftxui/component/screen_interactive.hpp"
 #include <algorithm>
 #include <cmath>
 #include <cstddef>
+#include <cstdlib>
+#include <ctime>
 #include <ftxui/component/component.hpp>
 #include <ftxui/component/component_base.hpp>
 #include <ftxui/component/component_options.hpp>
@@ -23,10 +26,43 @@ int main(int argc, char *argv[]) {
   int col_sync = 0;
   Component board_component;
 
-  // Trying new board design;
+  // Initialize board values
+  // Create a string with 81 characters. Empty = '.', random numbers
+  // With a completed board, we can create the game board by removing
+  // random values.
+  Sudoku::init();
+//  std::string puzzle{"4.....8.5.3..........7......2.....6.....8.4......1......."
+//                     "6.3.7.5..2.....1.4......"};
+std::string puzzle;
+srand(time(0));
+for (int i = 0; i < 9; i++) {
+    int x = floor(i / 9);
+    int y = i % 9;
+
+    int randomNum = 1 + (rand() % 9);
+
+    if (x == 0 || x == 1 || x == 2) {
+        puzzle.push_back(randomNum);
+    } 
+    
+}
+  auto S = solve(unique_ptr<Sudoku>(new Sudoku(puzzle)));
+
+  // Initialize board UI
   Components inner_board;
   std::vector<std::vector<int>> test_board(BOARD_SIZE,
                                            std::vector<int>(BOARD_SIZE, 0));
+
+  for (int i = 0; i < BOARD_SIZE; i++) {
+    for (int j = 0; j < BOARD_SIZE; j++) {
+      char c = puzzle[(i * BOARD_SIZE) + j];
+      if (c == '.') {
+        test_board[i][j] = '0';
+      } else {
+        test_board[i][j] = c;
+      }
+    }
+  }
 
   Board game_board(std::move(test_board));
 
@@ -39,7 +75,7 @@ int main(int argc, char *argv[]) {
       int *cell_val = &game_board.board[i].at(j);
       rows.push_back(
           Renderer([&, cell_val](bool focus) {
-            auto text = ftxui::text(std::to_string(*cell_val));
+            auto text = ftxui::text(std::to_string(*cell_val - '0'));
             if (focus)
               text |= bgcolor(Color::DarkMagenta);
             return text;
@@ -48,7 +84,7 @@ int main(int argc, char *argv[]) {
             if (!(e.character().at(0) <= '9' && e.character().at(0) > '0'))
               return false;
 
-            int n = std::stoi(e.character());
+            int n = e.character().at(0);
             game_board.set(i, j, n);
 
             return true;
@@ -71,7 +107,7 @@ int main(int argc, char *argv[]) {
 
   auto screen = ScreenInteractive::FitComponent();
   screen.Loop(board_component | border);
-  //  game_board.print();
+  //   game_board.print();
 
   return 0;
 }
